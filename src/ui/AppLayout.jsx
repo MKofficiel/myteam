@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../components/Header";
 import { CTA } from "../sections/CTA";
 import { Outlet } from "react-router";
