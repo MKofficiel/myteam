@@ -35,6 +35,7 @@ const Header = () => {
               <Link
                 key={label}
                 to={path}
+                replace
                 className="ml-[55px] text-[18px] font-semibold text-white last:mx-auto last:rounded-full last:border-[2px] last:px-[32px] last:py-[9px] md:last:ml-auto"
               >
                 {label}
@@ -54,7 +55,7 @@ const Header = () => {
                 {/* <Link to={path} className="cursor-pointer bg-red-400">
                   {label}
                 </Link> */}
-                <Link to={path} className="cursor-pointer">
+                <Link to={path} replace className="cursor-pointer">
                   {label}
                 </Link>
               </li>
