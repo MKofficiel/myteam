@@ -1,7 +1,7 @@
 export const NavLinks = [
   { label: "home", path: "/" },
-  { label: "about", path: "about" },
-  { label: "contact us", path: "contact" },
+  { label: "about", path: "/about" },
+  { label: "contact us", path: "/contact" },
 ];
 
 export const features = [
@@ -52,5 +52,77 @@ export const testimonials = [
     author: "Arthur Clarke",
     job: "Co-founder of MyPhysio",
     image: "/src/assets/avatar-arthur.jpg",
+  },
+];
+
+export const directors = [
+  {
+    id: 1,
+    author: "Nikita Marks",
+    job: "Founder & CEO",
+    image: "/src/assets/avatar-nikita.jpg",
+  },
+  {
+    id: 2,
+    author: "Cristian Duncan",
+    job: "Co-founder & COO",
+    image: "/src/assets/avatar-christian.jpg",
+  },
+  {
+    id: 3,
+    author: "Cruz Hamer",
+    job: "Co-founder & CTO",
+    image: "/src/assets/avatar-cruz.jpg",
+  },
+  {
+    id: 4,
+    author: "Drake Heaton",
+    job: "Co-founder & CTO",
+    image: "/src/assets/avatar-drake.jpg",
+  },
+  {
+    id: 5,
+    author: "Griffin Wise",
+    job: "Lead Marketing",
+    image: "/src/assets/avatar-griffin.jpg",
+  },
+  {
+    id: 6,
+    author: "Aden Allan",
+    comment:
+      "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
+  },
+];
+
+export const ClientsLogo = [
+  {
+    image: "/src/assets/logo-the-verge.png",
+  },
+  {
+    image: "/src/assets/logo-jakarta-post.png",
+  },
+  {
+    image: "/src/assets/logo-the-guardian.png",
+  },
+  {
+    image: "/src/assets/logo-tech-radar.png",
+  },
+  {
+    image: "/src/assets/logo-gadgets-now.png",
+  },
+];
+
+export const Qualities = [
+  {
+    icon: "/src/assets/icon-person.svg",
+    content: "The quality of our talent network",
+  },
+  {
+    icon: "/src/assets/icon-cog.svg",
+    content: "Usage & implementation of our software",
+  },
+  {
+    icon: "/src/assets/icon-chart.svg",
+    content: "How we help drive innovation",
   },
 ];

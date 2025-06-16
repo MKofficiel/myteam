@@ -7,7 +7,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-midnight-green relative flex h-[90px] items-center justify-center px-[24px] py-[73px] max-md:py-[48px]">
+    <header className="bg-midnight-green relative flex h-[90px] items-center justify-center px-[24px] py-[73px] max-md:py-[48px] lg:px-[165px] lg:py-[67px]">
       {/* <div className="container mx-auto flex items-center gap-[80px] bg-red-400"> */}
       <div className="mx-auto flex w-[1200px] items-center justify-between md:gap-[48px] lg:gap-[80px]">
         <Link to="/">
@@ -35,6 +35,7 @@ const Header = () => {
               <Link
                 key={label}
                 to={path}
+                replace
                 className="ml-[55px] text-[18px] font-semibold text-white last:mx-auto last:rounded-full last:border-[2px] last:px-[32px] last:py-[9px] md:last:ml-auto"
               >
                 {label}
@@ -54,7 +55,7 @@ const Header = () => {
                 {/* <Link to={path} className="cursor-pointer bg-red-400">
                   {label}
                 </Link> */}
-                <Link to={path} className="cursor-pointer">
+                <Link to={path} replace className="cursor-pointer">
                   {label}
                 </Link>
               </li>
