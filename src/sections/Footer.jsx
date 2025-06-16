@@ -8,7 +8,7 @@ const Footer = () => {
           <img src="/src/assets/logo.svg" alt="" width={96} height={24} />
           <ul className="flex gap-[24px] text-[15px] leading-[25px] font-bold text-white">
             <li>
-              <Link to="home">home</Link>
+              <Link to="/">home</Link>
             </li>
             <li>
               <Link to="about">about</Link>
