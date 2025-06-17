@@ -4,8 +4,8 @@ const Hero = () => {
       <div className="mx-auto max-w-[1200px] py-[129px] text-white max-2xl:text-left max-xl:text-center max-md:px-[24px] max-md:py-[80px]">
         <div className="relative flex flex-row gap-[100px] max-xl:flex-col max-xl:gap-[24px] max-lg:text-center">
           <div className="flex-1">
-            <h1 className="text-[100px] leading-[100px] font-bold tracking-normal max-lg:text-[64px] max-lg:leading-[56px] max-md:text-[40px] max-md:leading-[40px] max-md:tracking-normal">
-              <span className="block">Find the </span>
+            <h1 className="text-[100px] leading-[100px] font-bold tracking-normal max-lg:text-[64px] max-lg:leading-[56px] max-md:text-[40px] max-md:leading-[40px]">
+              <span className="block">Find the</span>
 
               <span className="block">
                 best <span className="text-light-coral">talent</span>
@@ -13,7 +13,7 @@ const Hero = () => {
             </h1>
           </div>
 
-          <div className="flex w-full flex-1 items-end justify-center">
+          <div className="flex w-full flex-1 items-end justify-center pb-[12px]">
             <p className="text-[15px] leading-[28px] font-semibold max-xl:w-lg max-md:w-full lg:text-[18px]">
               Finding the right people and building high performing teams can be
               hard. Most companies aren’t tapping into the abundance of global

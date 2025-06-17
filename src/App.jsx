@@ -4,6 +4,7 @@ import AboutPage from "./pages/AboutPage";
 import Contact from "./pages/Contact";
 import AppLayout from "./ui/AppLayout";
 import ScrollTop from "./components/ScrollTop";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
+      <Toaster position="top-center" />
     </BrowserRouter>
   );
 }

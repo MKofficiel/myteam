@@ -17,7 +17,8 @@
     font-family: var(--font-livvic);
   }
 }
-
-.input {
-  @apply w-full border-white pb-[16px] pl-[14px] outline-none placeholder:text-[#99b8bb] focus:outline-none;
+@layer components {
+  .input {
+    @apply w-full border-white pb-[16px] pl-[14px] outline-none placeholder:text-[#99b8bb] focus:outline-none;
+  }
 }

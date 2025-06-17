@@ -5,13 +5,25 @@ const Footer = () => {
     <footer className="bg-dark-green px-[24px] py-[66px] md:px-[40px] md:py-[56px] lg:px-[165px] lg:py-[48px]">
       <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-[20px] md:grid-cols-2 xl:grid-cols-3 xl:items-start">
         <nav className="flex flex-col items-center gap-[24px] md:items-start md:gap-[53px]">
-          <img src="/src/assets/logo.svg" alt="" width={96} height={24} />
+          <Link to="/">
+            <img src="/src/assets/logo.svg" alt="" width={96} height={24} />
+          </Link>
+
           <ul className="flex gap-[24px] text-[15px] leading-[25px] font-bold text-white">
             <li>
-              <Link to="/">home</Link>
+              <Link
+                to="/"
+                className="hover:text-light-coral cursor-pointer transition-all duration-500"
+              >
+                home
+              </Link>
             </li>
             <li>
-              <Link to="/about" replace>
+              <Link
+                to="/about"
+                replace
+                className="hover:text-light-coral cursor-pointer transition-all duration-500"
+              >
                 about
               </Link>
             </li>

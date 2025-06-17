@@ -1,8 +1,10 @@
 import { useForm } from "react-hook-form";
 import Button from "./Button";
-import { data, redirect } from "react-router";
+import { data, redirect, useNavigate } from "react-router";
+import toast from "react-hot-toast";
 
 const Form = () => {
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -13,8 +15,8 @@ const Form = () => {
 
   const onSubmit = (data) => {
     console.log("form ", data);
-    alert("mk");
-    redirect("/home");
+    toast.success("message envoye ✅");
+    navigate("/");
   };
 
   return (
