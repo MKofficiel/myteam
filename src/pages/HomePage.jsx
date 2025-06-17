@@ -8,12 +8,9 @@ import Tesmonials from "../sections/Tesmonials";
 const HomePage = () => {
   return (
     <main>
-      <Header />
       <Hero />
       <Features />
       <Tesmonials />
-      <CTA />
-      <Footer />
     </main>
   );
 };

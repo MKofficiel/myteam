@@ -6,21 +6,21 @@ export const NavLinks = [
 
 export const features = [
   {
-    id: 1,
+    id: 123,
     icon: "/src/assets/icon-person.svg",
     heading: "Experienced Individuals",
     paragraph:
       "Our network is made up of highly experienced professionals who are passionate about what they do.",
   },
   {
-    id: 2,
+    id: 234,
     icon: "/src/assets/icon-cog.svg",
     heading: "Easy to Implement",
     paragraph:
       "Our processes have been refined over years of implementation meaning our teams always deliver.",
   },
   {
-    id: 3,
+    id: 345,
     icon: "/src/assets/icon-chart.svg",
     heading: "Enhanced Productivity",
     paragraph:
