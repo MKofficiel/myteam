@@ -5,9 +5,7 @@ import Footer from "../sections/Footer";
 const Contact = () => {
   return (
     <main>
-      <Header />
       <ContactHeader />
-      <Footer />
     </main>
   );
 };

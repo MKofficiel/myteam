@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import Button from "./Button";
-import { data } from "react-router";
+import { data, redirect } from "react-router";
 
 const Form = () => {
   const {
@@ -13,6 +13,8 @@ const Form = () => {
 
   const onSubmit = (data) => {
     console.log("form ", data);
+    alert("mk");
+    redirect("/home");
   };
 
   return (

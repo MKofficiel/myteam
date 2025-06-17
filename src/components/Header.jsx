@@ -34,6 +34,7 @@ const Header = () => {
             {NavLinks.map(({ label, path }) => (
               <Link
                 key={label}
+                onClick={() => setIsOpen(false)}
                 to={path}
                 replace
                 className="ml-[55px] text-[18px] font-semibold text-white last:mx-auto last:rounded-full last:border-[2px] last:px-[32px] last:py-[9px] md:last:ml-auto"

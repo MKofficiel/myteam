@@ -9,12 +9,9 @@ import Footer from "../sections/Footer";
 const AboutPage = () => {
   return (
     <main>
-      <Header />
       <AboutHeader />
       <MeetTheTeam />
       <Clients />
-      <CTA />
-      <Footer />
     </main>
   );
 };
