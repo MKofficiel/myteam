@@ -3,7 +3,7 @@ import { testimonials } from "../constants";
 
 const Tesmonials = () => {
   return (
-    <section className="bg-deep-jungle-green relative z-10 overflow-x-hidden max-xl:px-[97px] max-xl:py-[100px] max-md:px-[24px] max-md:py-[64px] xl:px-[165px] xl:py-[140px]">
+    <section className="bg-deep-jungle-green relative z-10 overflow-x-hidden max-xl:px-[97px] max-xl:py-[100px] max-md:px-[24px] md:py-[64px] xl:px-[165px] xl:py-[140px]">
       {/* <section className="bg-deep-jungle-green relative z-10 overflow-x-hidden"> */}
       <div className="mx-auto flex max-w-[1200px] flex-col gap-[84px] text-white">
         <div className="mx-auto max-md:mt-[40px]">

@@ -8,9 +8,7 @@ const ContactHeader = () => {
       <div className="mx-auto grid h-full max-w-[1200px] items-center gap-y-[56px] md:gap-y-[64px] lg:grid-cols-[1fr_1fr] lg:items-end lg:gap-x-[100px]">
         <div className="flex h-full flex-1 flex-col justify-center gap-[40px] text-center text-white lg:items-start lg:text-left">
           <div>
-            <h1 className="mb-[16px] text-center text-[40px] leading-[40px] font-bold md:text-[64px] md:leading-[56px] lg:leading-[100px]">
-              Contact
-            </h1>
+            <h1 className="heading-primary">Contact</h1>
             <span className="text-light-coral text-[32px] leading-[48px] font-bold">
               Ask us about
             </span>

@@ -21,4 +21,8 @@
   .input {
     @apply w-full border-white pb-[16px] pl-[14px] outline-none placeholder:text-[#99b8bb] focus:outline-none;
   }
+
+  .heading-primary {
+    @apply mb-[16px] text-center text-[40px] leading-[40px] font-bold md:text-[64px] md:leading-[56px] lg:leading-[100px];
+  }
 }

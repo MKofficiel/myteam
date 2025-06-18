@@ -2,6 +2,7 @@ import { useForm } from "react-hook-form";
 import Button from "./Button";
 import { data, redirect, useNavigate } from "react-router";
 import toast from "react-hot-toast";
+import ButtonLink from "./ButtonLink";
 
 const Form = () => {
   const navigate = useNavigate();
@@ -92,7 +93,7 @@ const Form = () => {
         )}
       </div>
       <div className="">
-        <Button>submit</Button>
+        <ButtonLink variant="onDeep">submit</ButtonLink>
       </div>
     </form>
   );
